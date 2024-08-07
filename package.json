@@ -10,7 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
     "@heroicons/react": "^2.1.5",
+    "@mui/icons-material": "^5.16.6",
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
     "@svgr/webpack": "^8.1.0",

@@ -1,0 +1,153 @@
+/* .container {
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-wrapper .image-list {
+    display: flex;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    gap: 1.25rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+    display: none; 
+}
+
+.slider-wrapper .image-list .image-item {
+    min-width: 35%;
+    height: 40rem;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.container .left-right-cont {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 43rem;
+    width: 100%;
+    font-size: 2rem;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.container .left-right-cont .control-btn {  
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+}
+
+.container .left-right-cont .control-btn#left {
+    margin-right: 1rem;
+    color: black;
+    background-color: white;
+} */
+
+
+
+/* Carousel.css */
+
+.container {
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-wrapper .image-list {
+    display: flex;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    gap: 1.25rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+    display: none; 
+}
+
+.slider-wrapper .image-list .image-item-container {
+    position: relative;
+    min-width: 35%;
+    height: 40rem;
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    width: calc(100% - 20px); /* Adjust width based on your design needs */
+    text-align: left; /* Center text within overlay */
+}
+
+.text-overlay2 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    width: calc(100% - 20px); /* Adjust width based on your design needs */
+    text-align: left; /* Center text within overlay */
+}
+
+.left-right-cont {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 43rem;
+    width: 100%;
+    font-size: 2rem;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.control-btn {  
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+}
+
+.control-btn#left {
+    margin-right: 1rem;
+}

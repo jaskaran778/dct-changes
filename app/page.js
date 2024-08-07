@@ -4,7 +4,9 @@ import About from "./About_DCT";
 import Services from "./Services";
 import Lorems from "./Lorem";
 import Footer from "./Footer_DCT";
-import Globe2 from "./Globe2"
+import Globe2 from "./Globe2";
+// import Carousel from "./Carousel";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-black">
@@ -16,6 +18,7 @@ export default function Home() {
       <About />
       </div>
       <Services />
+      {/* <Carousel /> */}
       <Globe2 />
       <Lorems />  
       <Footer />
