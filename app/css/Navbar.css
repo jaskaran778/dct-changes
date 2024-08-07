@@ -1,0 +1,25 @@
+.nav-container {
+  width: 100%;
+  padding: 1rem 2rem 2rem;
+  background-color: #000000;
+}
+
+.nav-container  {
+  width: 10rem; /* Adjust if necessary */
+  height: 3 rem; /* Adjust if necessary */
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0);
+  z-index: 1000; 
+}
+
+/* .logo-container {
+  margin-left: 16px;
+  margin-top: 12px;
+} */
