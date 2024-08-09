@@ -23,6 +23,10 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        "custom-gradient":
+          "linear-gradient(90deg, #2F467E 0%, #5979C6 50%, #2F467E 100%)",
+      },
       screens: {
         lg: {
           max: "1200px",

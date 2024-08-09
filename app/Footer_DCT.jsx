@@ -21,11 +21,12 @@ const Footer = () => {
             </p>{" "}
           </div>
           <div className="address">
-            <p><b> ADDRESS:</b> RAJEEV NAGAR, NEW DELHI <br />
-INDIA - 110086
-</p>
+            <p>
+              <b> ADDRESS:</b> RAJEEV NAGAR, NEW DELHI <br />
+              INDIA - 110086
+            </p>
           </div>
-          <div className="flex items-center gap-2 mt-[4px]" >
+          <div className="flex items-center gap-2 mt-[4px]">
             <p className="text-md">
               FIND US ON
               <br />
@@ -49,8 +50,8 @@ INDIA - 110086
         <p className="mt-3">© 2024 DCT All rights reserved.</p>
         <p className="mt-3">Made with ❤️ In India</p>
       </div>
-      <ShootingStars />
-      <StarsBackground />
+      {/* <ShootingStars />
+      <StarsBackground /> */}
     </div>
   );
 };
