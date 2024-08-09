@@ -10,12 +10,14 @@ const Footer = () => {
       <div className="flex justify-between items-start pt-0 mq750:flex mq750:flex-col">
         <div className="flex flex-col">
           <div className="flex items-center gap-4 mb-8">
-            <Image
-              src="/images/dct_logo.svg"
-              alt="DCT Logo"
-              width={100}
-              height={100}
-            />
+            <a href="https://www.linkedin.com/company/data-culture-technolgies/">
+              <Image
+                src="/images/dct_logo.svg"
+                alt="DCT Logo"
+                width={100}
+                height={100}
+              />
+            </a>
             <p className="text-3xl font-bold mb-2 mq750:text-[20px]">
               Pioneering Innovation <br /> with Smart Technology Solutions
             </p>{" "}
